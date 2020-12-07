@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/News.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <img src="./images/logo.jpg" />
+
+        </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="./MediaRoom.html"><li>Media Room</li></a>
+            </ul>
+            <button type="button" class="btn">SIGN UP</button>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </div>
+
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = "-200px";
+        }
+    </script>
+
+<img class="pic" src="./Images/event5.jpg" />
+
+<div class="heading">
+  <h1 style="color: white;">EVENTS</h1>
+  <p>Read more about the latest and upcoming events hosted by CARE India across the country.</p>
+</div>
+    <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image">
+              <div class="property-image-title">
+                <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+              </div>
+            </div></a>
+          <div class="property-description">
+            <h5> Card Title </h5>
+            <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+          </div>
+          <a href="#">
+            <div class="property-social-icons">
+              <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+            </div>
+          </a>
+        </div>
+        <div class="property-card">
+            <a href="#">
+              <div class="property-image">
+                <div class="property-image-title">
+                  <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+                </div>
+              </div></a>
+            <div class="property-description">
+              <h5> Card Title </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+            <a href="#">
+              <div class="property-social-icons">
+                <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+              </div>
+            </a>
+          </div>
+          <div class="property-card">
+            <a href="#">
+              <div class="property-image">
+                <div class="property-image-title">
+                  <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+                </div>
+              </div></a>
+            <div class="property-description">
+              <h5> Card Title </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+            <a href="#">
+              <div class="property-social-icons">
+                <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+              </div>
+            </a>
+          </div>
+          <div class="property-card">
+            <a href="#">
+              <div class="property-image">
+                <div class="property-image-title">
+                  <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+                </div>
+              </div></a>
+            <div class="property-description">
+              <h5> Card Title </h5>
+              <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+            </div>
+            <a href="#">
+              <div class="property-social-icons">
+                <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+              </div>
+            </a>
+          </div>
+      </div>
+</body>
+</html>
