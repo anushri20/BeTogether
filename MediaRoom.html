@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/MediaRoom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <img src="./Images/logo.jpg" />
+
+        </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="./MediaRoom.html"><li>Media Room</li></a>
+            </ul>
+            <button type="button" class="btn">SIGN UP</button>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </div>
+
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = "-200px";
+        }
+    </script>
+    <div class="container">
+        <div class="cube_1">
+
+        <div class="side back black">
+        <a href="./photoGallery.html"><i class="fa fa-picture-o icon" ><div style="font-size: small;">Photos</div></i>
+            
+        </a>
+        
+        </div>
+
+        <div class="side left grey">
+            <i class="fa fa-picture-o icon"></i>
+        </div>
+
+        <div class="side front grey">
+        <i class="fa fa-picture-o icon"></i>
+        </div>
+
+        <div class="side right grey">
+            <i class="fa fa-picture-o icon"></i>
+        </div>
+
+        <div class="side top grey ">
+            <i class="fa fa-picture-o icon"></i>
+        </div>
+
+        <div class="side bottom grey">
+            <i class="fa fa-picture-o icon"></i>
+        </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="cube_2">
+        <div class="side back black">
+        <a href="./videoGallery.html" ><i class="fa fa-video-camera icon" ><div style="font-size: small;">Videos</div></i></a>
+        
+        </div>
+        <div class="side left grey">
+        <i class="fa fa-video-camera icon" ></i>
+        
+        </div>
+        <div class="side front grey">
+        <i class="fa fa-video-camera icon" ></i>
+        
+        </div>
+        <div class="side right grey">
+        <i class="fa fa-video-camera icon" ></i>
+        
+        </div>
+        <div class="side top grey ">
+        <i class="fa fa-video-camera icon" ></i>
+        
+        </div>
+        <div class="side bottom grey">
+        <i class="fa fa-video-camera icon" ></i>
+        
+        </div>
+        </div>
+        
+        </div>
+        <div class="container">
+            <div class="cube_3">
+            <div class="side back black">
+            <a href="./NewsRoom.html" ><i class="fa fa-newspaper-o icon"><div style="font-size: small;">News</div></i></a>
+            
+            </div>
+            <div class="side left grey">
+            <i class="fa fa-newspaper-o icon"></i>
+            
+            </div>
+            <div class="side front grey">
+            <i class="fa fa-newspaper-o icon"></i>
+            
+            </div>
+            <div class="side right grey">
+            <i class="fa fa-newspaper-o icon"></i>
+            
+            </div>
+            <div class="side top grey ">
+            <i class="fa fa-newspaper-o icon"></i>
+            
+            </div>
+            <div class="side bottom grey">
+            <i class="fa fa-newspaper-o icon"></i>
+            
+            </div>
+            </div>
+            
+            </div>
+            <div class="container">
+                <div class="cube_4">
+                <div class="side back black">
+                <a href="./events.html"><i class="fa fa-calendar icon"><div style="font-size: small;">Events</div></i></a>
+                
+                </div>
+                <div class="side left grey">
+                <i class="fa fa-calendar icon"></i>
+                
+                </div>
+                <div class="side front grey">
+                <i class="fa fa-calendar icon"></i>
+                
+                </div>
+                <div class="side right grey">
+                <i class="fa fa-calendar icon"></i>
+                
+                </div>
+                <div class="side top grey ">
+                <i class="fa fa-calendar icon"></i>
+                
+                </div>
+                <div class="side bottom grey">
+                <i class="fa fa-calendar icon"></i>
+                
+                </div>
+                </div>
+                
+                </div>
+                <div class="newsletter">
+                    
+                    <h1 >Subscribe to our newsletter</h1>
+                    <div style="display: flex;">
+                    <p>Want CARE India newsletter in your inbox?<br/>
+                        Sign up for our email updates to receive news, features, and opportunities to make a difference!</p>
+                        
+                    <div style="margin-left: 20%;">
+                        <form>
+                            <input type="text" placeholder="Name" class="input"/>
+                            <input type="email" placeholder="Email Address *" class="input"/>
+                            <button class="btn">Sign UP</button>
+                        </form>
+
+                    </div>
+                    </div>
+
+                </div>
+                
+</body>
+</html>

@@ -4,12 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js">
 </head>
 <body>
     <div class="home">
         <div class="navbar">
             <div class="nav-logo">
-                <img src="logo.jpg" />
+                <img src="./images/logo.jpg" />
 
             </div>
             <div class="nav-links" id="nav-links">
@@ -17,7 +18,7 @@
                 <ul>
                     <a href="#"><li>Home</li></a>
                     <a href="#"><li>About</li></a>
-                    <a href="#"><li>Contact</li></a>
+                    <a href="./MediaRoom.html"><li>Media Room</li></a>
                 </ul>
                 <button type="button" class="btn">SIGN UP</button>
 
@@ -25,8 +26,21 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
 
         </div>
-        <div class="banner-title">
+        <!-- <div class="cursor"></div>
+
+        <div class="shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+
+        </div>
+        <div class="content">
             <h1>Let's do this together</h1>
+            </div> -->
+        <div class="banner-title">
+            
+            <h1>Let's do this together</h1>
+          
             <button type="button" class="btn"> Explore</button>
         </div>
         <div class="vertical-bars">
@@ -54,6 +68,22 @@
         function closeMenu(){
             show.style.right = "-200px";
         }
+
+        document.body.addEventListener("mousemove", function() {
+            const mouseX = evt.clientX;
+            const mouseY = evt.clientY;
+
+            gsap.set("cursor", {
+                x: mouseX,
+                y: mouseY
+            })
+
+            gsap.to(".shape", {
+                x:mouseX,
+                y: mouseY,
+                stagger: -0.1
+            })
+        })
     </script>
 
 
