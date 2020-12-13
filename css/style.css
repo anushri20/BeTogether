@@ -4,6 +4,19 @@
     font-family: sans-serif;
 }
 
+/* body */
+body { 
+
+    background:#0f4667;
+    font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .main{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
 .home{
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./Images/covid.jpg');
