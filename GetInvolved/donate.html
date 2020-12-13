@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm_v2 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		
+		<link rel="stylesheet" href="../css/donate.css">
+	</head>
+
+	<body>
+
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="./images/logo.jpg" />
+    
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="./MediaRoom.html"><li>Media Room</li></a>
+                </ul>
+                <button type="button" class="btn">SIGN UP</button>
+    
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    
+        </div>
+
+        <div class="pic">
+            <img src="../Images/volunteer.jpg" />
+            <div class="top-right">DONATE</div>
+        </div>
+        <div class="container">
+        <div class="donate">
+            <h1>Donate to make a difference</h1>
+            <p>CARE has been working in India for 70 years, focusing on alleviating poverty and social exclusion. Your support will go a long way in helping us in our efforts. Donate now to support women and girls get access to quality education, maternal and child health care services, sustainable livelihood opportunities, and relief and rehabilitation during disasters and support for disaster preparedness.
+                Get 50 percent tax exemption on your donation to CARE India.
+                Be a changemaker!</p>
+        </div>
+
+
+		<div class="wrapper" style="background-image: url('../Images/volunteer');">
+			<div class="inner">
+				<form action="">
+					<h1>Donate</h1>
+					<div class="form-group">
+						<div class="form-wrapper">
+							<label for="">First Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-wrapper">
+							<label for="">Last Name</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-wrapper">
+						<label for="">Email</label>
+						<input type="text" class="form-control">
+                    </div>
+                    <div class="form-wrapper">
+						<label for="">Donation Amount</label>
+						<input type="number" class="form-control">
+                    </div>
+                    <div style="display: flex;">
+                    <div style="padding-right: 35%;" >
+                        <input type="radio" value="one-time" name="one-time" id="one-time"/>
+                        <label for="one-time">One Time</label>
+                    </div>
+                    <div >
+                        <input type="radio" value="monthly" name="monthly" id="monthly" />
+                        <label for="monthly">Monthly</label>
+                    </div>
+                    </div>
+					
+					<a href="https://paytm.com/">
+                        <button>Proceed</button>
+                        </a>
+				</form>
+			</div>
+        </div>
+        </div>
+        <script>
+            var show = document.getElementById("nav-links");
+            function showMenu(){
+                show.style.right = "0";
+            }
+            function closeMenu(){
+                show.style.right = "-200px";
+            }
+        </script>
+		
+	</body>
+</html>

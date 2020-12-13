@@ -119,7 +119,6 @@
     display: none;
 }
 
-<<<<<<< HEAD
 .button {
     background: #11999E;
     background-image: -webkit-linear-gradient(top, #11999E, #11999E);
@@ -251,7 +250,7 @@
 
 .other{
     padding-top: 50px;
-=======
+}
 .shapes{
     position: relative;
     height: 100vh;
@@ -314,7 +313,7 @@
 ::selection {
     color: #fff;
     background: #2128bd;
->>>>>>> 56a0e0f6be4abcd24fa3dd0ef12f21c4c07e37e7
+
 }
 
 @media (max-width: 700px){
