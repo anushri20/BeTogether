@@ -4,145 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/events.css" />
+    <link rel="stylesheet" href="../css/hamburger.css" />
+    <link rel="stylesheet" href="../css/carousel.css" />
     
     <title>Document</title>
 </head>
 <body>
+  <div class="menu-container home">
   
-    <!-- flip-card-container -->
-<div class="main">
-<div class="flip-card-container" style="--hue: 220">
-    <div class="flip-card">
-  
-      <div class="card-front">
-        <figure>
-          <div class="img-bg"></div>
-          <img src="./Images/event5.jpg" alt="Brohm Lake">
-          <figcaption>Brohm Lake</figcaption>
-        </figure>
-  
-        <ul>
-          <li>Detail 1</li>
-          <li>Detail 2</li>
-          <li>Detail 3</li>
-          <li>Detail 4</li>
-          <li>Detail 5</li>
-        </ul>
-      </div>
-  
-      <div class="card-back">
-        <figure>
-          <div class="img-bg"></div>
-          <img src="./Images/event4.jpg" alt="Brohm Lake">
-        </figure>
-  
-        <button>Book</button>
-  
-        <div class="design-container">
-          <span class="design design--1"></span>
-          <span class="design design--2"></span>
-          <span class="design design--3"></span>
-          <span class="design design--4"></span>
-          <span class="design design--5"></span>
-          <span class="design design--6"></span>
-          <span class="design design--7"></span>
-          <span class="design design--8"></span>
-        </div>
-      </div>
-  
+    <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+    
+    <div class="hamburger-icon">
+      <label for="openmenu" id="hamburger-label">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>    
     </div>
-  </div>
-  <!-- /flip-card-container -->
   
-  <!-- flip-card-container -->
-  <div class="flip-card-container" style="--hue: 170">
-    <div class="flip-card">
+      <div class="menu-pane">
+        
+        <nav>
+          <ul class="menu-links">
+            <li><a href="###">Québec, QC</a><span id="QC-info">
+              <p>+1 418-640-3300</p>
+            </span>
+              
+            </li>
+            
+            <li><a href="./home.html">Home</a>
+             
+            </li>
+            <li><a href="./MediaRoom.html">Media Room</a></li>
+            <li><a href="./GetInvolved/getInvolved.html">Get Involved</a></li>
+          </ul>
+           <ul class="menu-links">
+                       <li><a href="###">Washington, DC</a>
+                         <span id="DC-info">
+              <p>+1 202-472-3850</p>
+            </span></li>
   
-      <div class="card-front">
-        <figure>
-          <div class="img-bg"></div>
-          <img src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Image 2">
-          <figcaption>Légende</figcaption>
-        </figure>
-  
-        <ul>
-          <li>Detail 1</li>
-          <li>Detail 2</li>
-          <li>Detail 3</li>
-          <li>Detail 4</li>
-          <li>Detail 5</li>
-        </ul>
+            <li><a href="###">breakfast</a></li>
+            <li><a href="###">
+              bakery            
+              </a></li>
+            <li><a href="###">bar</a></li>
+          </ul>
+          
+          
+        </nav>
       </div>
-  
-      <div class="card-back">
-        <figure>
-          <div class="img-bg"></div>
-          <img src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image-2">
-        </figure>
-  
-        <button>Book</button>
-  
-        <div class="design-container">
-          <span class="design design--1"></span>
-          <span class="design design--2"></span>
-          <span class="design design--3"></span>
-          <span class="design design--4"></span>
-          <span class="design design--5"></span>
-          <span class="design design--6"></span>
-          <span class="design design--7"></span>
-          <span class="design design--8"></span>
+  <!-- <img class="pic" src="../Images/event3.jpg" /> -->
+  <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        
+        <div class="carousel-item item-1">
+          <a class="arrow arrow-prev" href="#item-3"></a>
+          <a class="arrow arrow-next" href="#item-2"></a>
         </div>
-      </div>
-  
-    </div>
-  </div>
-  <!-- /flip-card-container -->
-  
-  <!-- flip-card-container -->
-  <div class="flip-card-container" style="--hue: 350">
-    <div class="flip-card">
-  
-      <div class="card-front">
-        <figure>
-          <div class="img-bg"></div>
-          <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
-          <figcaption>Brohm Lake</figcaption>
-        </figure>
-  
-        <ul>
-          <li>Detail 1</li>
-          <li>Detail 2</li>
-          <li>Detail 3</li>
-          <li>Detail 4</li>
-          <li>Detail 5</li>
-        </ul>
-      </div>
-  
-      <div class="card-back">
-        <!-- only if the image is necessary -->
-        <figure>
-          <div class="img-bg"></div>
-          <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
-        </figure>
-  
-        <button>Book</button>
-  
-        <!-- can add svg here and remove these eight spans -->
-        <div class="design-container">
-          <span class="design design--1"></span>
-          <span class="design design--2"></span>
-          <span class="design design--3"></span>
-          <span class="design design--4"></span>
-          <span class="design design--5"></span>
-          <span class="design design--6"></span>
-          <span class="design design--7"></span>
-          <span class="design design--8"></span>
+        
+        <div class="carousel-item item-2">
+          <a class="arrow arrow-prev" href="#item-1"></a>
+          <a class="arrow arrow-next" href="#item-3"></a>
         </div>
-      </div>
+        
+        <div class="carousel-item item-3">
+          <a class="arrow arrow-prev" href="#item-2"></a>
+          <a class="arrow arrow-next" href="#item-1"></a>
+        </div>
+
+        
+        </div>
+    
+<div class="heading">
+    <h1 >PHOTO GALLERY</h1>
+    <hr class="style12" /> <br/>
+    <p>Our photo gallery showcases some of the best captures on-field. These exclusive project albums will give you a glimpse of CARE India’s work as we engage with entire communities, to improve the lives and livelihoods of women and girls from across the country.</p>
+    <!-- <hr class="style12" /> -->
+    
+</div>
   
-    </div>
-  </div>
-  </div>
+<div class="event">
+<div class="event1">
+<div>
+  <h1>Blog Card</h1>
+</div>
+<section>
+
+<img src="https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?cs=srgb&dl=agriculture-apple-blur-257840.jpg&fm=jpg" alt="">
+<h3>Natural beauty. which is grateful in Bangladesh.</h3>
+<p class="date">12th December, 2018</p>
+
+</section>
+</div>
+
+<div>
+<div>
+  <h1>Blog Card</h1>
+</div>
+<section>
+<h3>Natural beauty. which is grateful in Bangladesh.</h3>
+<img src="https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?cs=srgb&dl=agriculture-apple-blur-257840.jpg&fm=jpg" alt="">
+<p class="date">12th December, 2018</p>
+<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+<a href="">Read More</a>
+</section>
+</div>
+</div>
  
 </body>
 </html>
