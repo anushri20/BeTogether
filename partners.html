@@ -3,39 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/partners.css">
+    <link rel="stylesheet" href="./css/partners.css">
+    <link rel="stylesheet" href="./css/hamburger.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>Partners</title>
 </head>
 <body>
 
-<<<<<<< HEAD
-
-=======
-  <div class="header">
-    <div >
-        <div class="navbar">
-            <div class="nav-logo">
-               
-            </div>
-            <div class="nav-links" id="nav-links">
-                <i class="fa fa-close" onclick="closeMenu()"></i>
-                <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Contact</li></a>
-                </ul>              
-                
-                <button type="button" class="btn">SIGN UP</button>
-                                 
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </div>          
+  <input type="checkbox" id="openmenu" class="hamburger-checkbox">
         
-    </div>
-</div>
->>>>>>> 540f6a05c9f6dbead115271f9bb0248c1972574b
+  <div class="hamburger-icon">
+    <label for="openmenu" id="hamburger-label">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>    
+  </div>
 
+    <div class="menu-pane">
+      
+      <nav>
+        <ul class="menu-links">
+          <li><a href="###">Québec, QC</a><span id="QC-info">
+            <p>+1 418-640-3300</p>
+          </span>
+            
+          </li>
+          
+          <li><a href="./home.html">Home</a>
+           
+          </li>
+          <li><a href="./MediaRoom.html">Media Room</a></li>
+          <li><a href="./GetInvolved/getInvolved.html">Get Involved</a></li>
+        </ul>
+         <ul class="menu-links">
+                     <li><a href="###">Washington, DC</a>
+                       <span id="DC-info">
+            <p>+1 202-472-3850</p>
+          </span></li>
+
+          <li><a href="###">breakfast</a></li>
+          <li><a href="###">
+            bakery            
+            </a></li>
+          <li><a href="###">bar</a></li>
+        </ul>
+        
+        
+      </nav>
+    </div>
 
     <div class="intro" >
       <p class="inner">PARTNERSHIP</p>
@@ -56,14 +74,36 @@
       <br><br><p class="inner-2">WHY PARTNER WITH US ?</p><br><br>
     </div>
 
-    <div>
+<div>
+
+    <div class="list">
+      <b><p style="font-size: 40px">Partner With Us</p></b><br><br>
       <ul>
-        <li>Mango</li>
-        <li>Apple</li>
+        <li class="item">Community Heroes</li><br>
+        <dd>I am a first responder, faith-based organization, service club, and other community organization that wants to help children in my community.</dd><br>
+        <li class="item">Warm Brands</li><br>
+        <dd>I am a business or brand that wants to start an employee volunteering, charitable giving, or cause marketing program.</dd><br>
+        <li class="item">OW Influencers</li><br>
+        <dd>I am an influencer that wants to use the power of my social platform to spread awareness for Operation Warm.</dd><br>
+        <li class="item">Get On The Wish List</li><br>
+        <dd>I am an organization that supports kids in need and want to receive coats.</dd><br>
       </ul>
     </div>
 
-    <br><br><span ><p style="text-align: center; font-size: xxx-large; font-weight: 540;">Partners Spotlight</p></span><br><br>
+    <div class="form">
+      <form action="#">
+        <input type="text" name="First Name" placeholder="First Name" class="input-field"><br><br>
+        <input type="text" name="Second Name" placeholder="Last Name" class="input-field"><br><br>
+        <input type="email" name="Your Email Address"   placeholder="Your Email Address" class="input-field"><br><br>
+        <input type="text" name="Phone Number" placeholder="Phone Number" class="input-field"><br><br>
+        <textarea name="Message" id="" cols="20" rows="5" maxlength="500" placeholder="Message" class="input-field area-field"></textarea> <br><br>
+        <a class="button" href="">SUBMIT</a>
+    </form>
+    </div>
+
+</div>
+
+    <br><br><span ><p class="inner-3">Partners Spotlight</p></span><br><br>
 
     <div class="carousel-wrapper">
         <span id="item-1"></span>
@@ -84,13 +124,8 @@
           <a class="arrow arrow-prev" href="#item-2"></a>
           <a class="arrow arrow-next" href="#item-1"></a>
         </div>
-
-        
-        </div>
-      </div>
-<br><br>
-      <div class="appeal">          
-            <h2 style="text-align: center;">WHY PARTNER WITH US?</h2>
-      </div>
+    </div>
+     
+     
 </body>
 </html>
