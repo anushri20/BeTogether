@@ -153,3 +153,38 @@ body{
                 display: block;
             }
         }
+
+        @media (min-width: 1100px){
+            .mobile{
+                display: none;
+            }
+            
+            
+        }
+        @media (max-width: 1100px){
+            .laptop{
+                display: none;
+            }
+            .newsletter{
+                bottom: 0%;
+                position: static;
+                margin-top: 2%;
+            }
+
+            
+        }
+        @media (max-width: 500px){
+            .cube_4{
+                left: 30%;
+            }
+        }
+        @media (min-width: 500px) and (max-width: 1100px){
+            .cube_4{
+            left: 40%;
+            }
+        }
+        @media (max-width: 330px){
+            .cube_4{
+                left: 20%;
+            }
+        }
