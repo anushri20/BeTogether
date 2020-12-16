@@ -1,8 +1,15 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body
 {
   background-color:#0f4667;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
+  
 }
 
 *
@@ -16,145 +23,154 @@ body
     background-position: center;
     background-size: cover;
     /* padding: 10px 5% 10px 5%; */
-}
-.heading{
+}@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+
+
+.cards {
+
+  margin-top: 2%;
+  margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
     
-    color: white;
-    padding: 20px 10% 10px 10%;
+    /* justify-content: center;
+    -webkit-justify-content: center; */
+    
 }
 
-h5
-{
-  margin:0px;
-  font-size:1.4em;
-  font-weight:700;
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('../Images/narayan.jpg');
 }
 
-p
-{
-  font-size:12px;
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('https://img.etimg.com/thumb/msid-76911982,width-300,imgsize-152944,,resizemode-4,quality-100/organisations.jpg');
+}
+.card--3 .card__img, .card--3 .card__img--hover {
+  background-image: url('https://img.etimg.com/thumb/msid-76911982,width-300,imgsize-152944,,resizemode-4,quality-100/organisations.jpg');
+}
+.card--4 .card__img, .card--4 .card__img--hover {
+  background-image: url('https://img.etimg.com/thumb/msid-76911982,width-300,imgsize-152944,,resizemode-4,quality-100/organisations.jpg');
 }
 
-.center
-{
+.card__like {
+    width: 18px;
+}
+
+.card__clock {
+    width: 15px;
+  vertical-align: middle;
+    fill: #AD7D52;
+}
+.card__time {
+    font-size: 12px;
+    color: #AD7D52;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.card__clock-info {
+    float: right;
+}
+
+.card__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
   
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
-/* End Non-Essential  */
-
-.property-card
-{
-  height:18em;
-  width:14em;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-  -ms-flex-direction:column;
-  flex-direction:column;
-  position:relative;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius:16px;
-  overflow:hidden;
-  /* -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff; */
-}
-/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
-
-/* Top Half of card, image. */
-
-.property-image
-{
-  height:6em;
-  width:14em;
-  padding:1em 2em;
-  position:Absolute;
-  top:0px;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
+.card__info-hover {
+    position: absolute;
+    padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
 }
 
-/* Bottom Card Section */
-
-.property-description
-{
-  background-color: #FAFAFC;
-  height:12em;
-  width:14em;
-  position:absolute;
-  bottom:0em;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  padding: 0.5em 1em;
-  text-align:center;
+.card__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0;
+  
+}
+.card {
+  margin-right: 12.5px;
+  margin-left: 12.5px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+    width: 27%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
 }
 
-/* Social Icons */
-
-.property-social-icons
-{
-  width:1em;
-  height:1em;
-  background-color:black;
-  position:absolute;
-  bottom:1em;
-  left:1em;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+.card__info {
+z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+   padding: 16px 24px 24px 24px;
 }
 
-/* Property Cards Hover States */
-
-.property-card:hover .property-description
-{
-  height:0em;
-  padding:0px 1em;
-}
-.property-card:hover .property-image
-{
-  height:18em;
+.card__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  color: #868686;
 }
 
-.property-card:hover .property-social-icons
-{
-  background-color:white;
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
 }
 
-.property-card:hover .property-social-icons:hover
-{
-  background-color:blue;
-  cursor:pointer;
+.card__by {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
-
-/* Optional
-
-.property-image-title
-{
-text-align:center;
-position:Relative;
-top:30%;
-opacity:0;
-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
-color:black;
-font-size:1.2em;
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
 }
 
-.property-card:hover .property-image-title
-{
-opacity:1;
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
 }
 
-*/
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}

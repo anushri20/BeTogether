@@ -18,7 +18,7 @@ body{
 }
 .pic .top-right {
     position: absolute;
-  top: 80%;
+  top: 70%;
   right: 5%;
   color: whitesmoke;
   font-weight: bolder;
@@ -138,4 +138,16 @@ body{
     cursor: pointer;
 }
 
+
+@media only screen and (max-width: 850px) {
+	.pic .top-right {
+		top: 70%;
+	}
+	.container {
+		display: block;
+}
+.sample{
+max-width: 100%;
+}
+}
  
