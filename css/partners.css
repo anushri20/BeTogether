@@ -16,24 +16,17 @@
 
 .header{
   background-color: #5e6f64;
-  padding-bottom: 18px;
+  padding-bottom: 15px;
 }
 
-
-.home{
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./Images/covid.jpg');
-    background-position: center;
-    background-size: cover;
-    overflow-x: hidden;
-    position: relative;
-}
 .navbar{
     display: flex;
-    padding: 40px 120px;
+    padding: 20px 30px 20px 30px;
 }
-.nav-logo img{
-    width: 100px;
+.nav-logo {
+    width: 80px;
+    height: 80px;
+    background-image: url('../Images/logo-1.jpg');
 }
 .nav-links{
     flex: 1;
@@ -149,7 +142,7 @@
   padding:25px 50px;
   opacity:0;
   transition: all 0.5s ease-in-out;
-  background-color: #ffdecf;
+  
 }
 
 .arrow{
@@ -178,10 +171,39 @@
 }
 
 .intro{
-  padding: 100px;
-  background-color: #ba7967;
+  padding: 200px;
+  background: url('../Images/mask.jpg');
   margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
   
+}
+
+p.inner{
+  position: absolute;
+  top: 4.7em;
+  text-align: center;
+  color:black;
+  font-size: 90px;
+  background-color: rgba(230, 222, 222, 0.6);
+  padding: 20px;
+  margin-top: -11%;
+  margin-left: 16%;
+}
+
+.inner-1{
+ margin-top: 30px ;
+ background-color: wheat;
+ font-size: 30px;
+ padding: 65px 190px 65px 190px;
+ text-align: justify;
+ font-weight: 545;
+}
+
+.inner-2{
+  text-align: center;
+  font-size: 40px ;
+  padding: 25px;
 }
 
 .appeal{
