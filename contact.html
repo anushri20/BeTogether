@@ -4,63 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hamburger.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 </head>
-<body style="background-color: #E3F2FC;">
-<div class="header">
-        <div >
-            <div class="navbar">
-                <div class="nav-logo">
-                    <img src="logo.jpg" />
-                </div>
-                <div class="nav-links" id="nav-links">
-                    <i class="fa fa-close" onclick="closeMenu()"></i>
-                    <ul>
-                        <a href="#"><li>Home</li></a>
-                        <a href="#"><li>About</li></a>
-                        <a href="#"><li>Contact</li></a>
-                    </ul>
-                    <div class="donate">
-                        <p>If you can, you should. Help others in need.</p> <br>
-                        <a href="#" class="myButton">DONATE</a>
-                    </div>                      
-                    <div class="appeal">
-                        <p>We'd love to hear from you.</p><br>
-                        <h1>CONTACT US</h1>
-                    </div>
-                    
-                </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </div>          
-            <div class="vertical-bars">
-                <div class="search-icons">
-                    <i class="fa fa-th-list"></i>
-                    <i class="fa fa-search"></i>
-                </div>
-            </div>   
-            <div class="vertical-bars">
-                <div class="search-icons">
-                    <i class="fa fa-th-list"></i>
-                    <i class="fa fa-search"></i>
+<body >
+
     
-                </div>
-                <div class="social-icons">
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-instagram"></i>
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-pinterest"></i>
-                </div>
-    
-            </div>
-        </div>
+  <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+        
+  <div class="hamburger-icon">
+    <label for="openmenu" id="hamburger-label">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>    
+  </div>
+
+    <div class="menu-pane">
+      
+      <nav>
+        <ul class="menu-links">
+          <li><a href="###">Québec, QC</a><span id="QC-info">
+            <p>+1 418-640-3300</p>
+          </span>
+            
+          </li>
+          
+          <li><a href="./home.html">Home</a>
+           
+          </li>
+          <li><a href="./MediaRoom.html">Media Room</a></li>
+          <li><a href="./GetInvolved/getInvolved.html">Get Involved</a></li>
+        </ul>
+         <ul class="menu-links">
+                     <li><a href="###">Washington, DC</a>
+                       <span id="DC-info">
+            <p>+1 202-472-3850</p>
+          </span></li>
+
+          <li><a href="###">breakfast</a></li>
+          <li><a href="###">
+            bakery            
+            </a></li>
+          <li><a href="###">bar</a></li>
+        </ul>
+        
+        
+      </nav>
+    </div>
+
+    <div class="intro" >
+      <p class="inner">CONTACT US</p>
+    </div>
+
+    <div>
+        <br><br><p class="inner-2">Friendly folks, standing by.</p><br><br>
     </div>
     
 <div class="mail">
     
     <div class="form">
-        <p>Reach out to us !</p>
-        <p>Got a question ? Are you interested in partnering with us ?<br> Have any suggestion ? <br><br> Contact Us : </p><br>
+        <p class="reach">Reach out to us !</p>
+        <p class="reach">Got a question ? Are you interested in partnering with us ?<br> Have any suggestion ? <br><br> <span class="reach-1">Contact Us : </span></p><br>
         <form action="#">
             <input type="text" name="First Name" placeholder="First Name" class="input-field"><br><br>
             <input type="text" name="Second Name" placeholder="Last Name" class="input-field"><br><br>
@@ -72,7 +82,7 @@
     </div>
 
     <div class="contact">
-        <p>Customer Care</p><br>
+        <p class="color">Customer Care</p><br>
         <p>Not Sure ? Contact Customer Care</p><br>     
      
         <div class="user-1">
@@ -91,11 +101,42 @@
             </div>
         </div>
 
-        <div class="other">
-            <p>Other ways to Connect.</p>
+        <div >
+            <br><br><br><p class="color">Other ways to Connect.</p><br>
+            
+            <div class="icons">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <div class="user-info">
+                    <a href="#" class="info">support@betogether.com</a>
+                </div>
+            </div>   
+            <br>
+            <div class="icons">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <div class="user-info">
+                    <a href="#" class="info">Be_Together</a>
+                </div>
+            </div>
+            <br>
+            <div class="icons">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <div class="user-info">
+                    <a href="#" class="info">Be_Together</a>
+                </div>
+            </div>
+            <br>
+            <div class="icons">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <div class="user-info">
+                    <a href="#" class="info">Be_Together</a>
+                </div>
+            </div>
+
         </div>
 
     </div>
+
+   
 </div>
     
 </body>
