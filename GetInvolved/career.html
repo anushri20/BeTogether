@@ -3,38 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/carousel.css" />
     <link rel="stylesheet" href="../css/career.css" />
     
     <title>Accordian</title>
   </head>
   <body>
 
-    <div class="navbar">
-        <div class="nav-logo">
-            <img src="./images/logo.jpg" />
-
-        </div>
-        <div class="nav-links" id="nav-links">
-            <i class="fa fa-close" onclick="closeMenu()"></i>
-            <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="./MediaRoom.html"><li>Media Room</li></a>
-            </ul>
-            <button type="button" class="btn">SIGN UP</button>
-
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-
-    </div>
-    <div class="pic">
-        <img src="../Images/volunteer.jpg" />
-        <div class="top-right">JOIN OUR TEAM</div>
-    </div>
-   
-    <body>
+    <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
         
+        <div class="carousel-item item-1">
+          <a class="arrow arrow-prev" href="#item-3"></a>
+          <a class="arrow arrow-next" href="#item-2"></a>
+        </div>
+        
+        <div class="carousel-item item-2">
+          <a class="arrow arrow-prev" href="#item-1"></a>
+          <a class="arrow arrow-next" href="#item-3"></a>
+        </div>
+        
+        <div class="carousel-item item-3">
+          <a class="arrow arrow-prev" href="#item-2"></a>
+          <a class="arrow arrow-next" href="#item-1"></a>
+        </div>
+
+        
+        </div>
+        <div class="career">
         <main>
             <h1>Open Positions :</h1>
             <details>
@@ -42,7 +40,7 @@
                 <div class="faq__content">
                     <table>
                   <tr>
-                      <td style="width:3%"><img src="../../images/loctn.jpg" style="height:13px;width:13px;" /></td>
+                      <td style="width:3%"><img src="../Images/location.jpg" style="height:13px;width:13px;" /></td>
                       <td style="width:15%" class="text-head">Location </td>
                       <td> :</td>
                       <td><span id="grdPositionList_ctl02_Label2" class="Field_name">Ponneri Taluk</span></td>
@@ -61,13 +59,7 @@
                       <td><span id="grdPositionList_ctl02_Label3" class="Field_name">16-Dec-2020</span></td>
                   </tr> 
       
-                  <tr>
-                      <td style="width:3%"><img src="../../images/JD.png" style="height:13px;width:13px;" /></td>
-                      <td style="width:15%" class="text-head">Job Description</td>
-                      <td>:</td>
-                      <td><a id="grdPositionList_ctl02_lnkJD" title="Job Description" href="javascript:__doPostBack(&#39;grdPositionList$ctl02$lnkJD&#39;,&#39;&#39;)">View JD</a></td>
-                                                              
-                  </tr>
+                
                   
                   <tr>
                       <td style="width:3%"></td>
@@ -90,7 +82,7 @@
                 <div class="faq__content">
                     <table>
                   <tr>
-                      <td style="width:3%"><img src="../../images/loctn.jpg" style="height:13px;width:13px;" /></td>
+                      <td style="width:3%"><img src="../.jpg" style="height:13px;width:13px;" /></td>
                       <td style="width:15%" class="text-head">Location </td>
                       <td> :</td>
                       <td><span id="grdPositionList_ctl02_Label2" class="Field_name">Ponneri Taluk</span></td>
@@ -109,13 +101,7 @@
                       <td><span id="grdPositionList_ctl02_Label3" class="Field_name">16-Dec-2020</span></td>
                   </tr> 
       
-                  <tr>
-                      <td style="width:3%"><img src="../../images/JD.png" style="height:13px;width:13px;" /></td>
-                      <td style="width:15%" class="text-head">Job Description</td>
-                      <td>:</td>
-                      <td><a id="grdPositionList_ctl02_lnkJD" title="Job Description" href="javascript:__doPostBack(&#39;grdPositionList$ctl02$lnkJD&#39;,&#39;&#39;)">View JD</a></td>
-                                                              
-                  </tr>
+                  
                   
                   <tr>
                       <td style="width:3%"></td>
@@ -157,13 +143,7 @@
                 <td><span id="grdPositionList_ctl02_Label3" class="Field_name">16-Dec-2020</span></td>
             </tr> 
 
-            <tr>
-                <td style="width:3%"><img src="../../images/JD.png" style="height:13px;width:13px;" /></td>
-                <td style="width:15%" class="text-head">Job Description</td>
-                <td>:</td>
-                <td><a id="grdPositionList_ctl02_lnkJD" title="Job Description" href="javascript:__doPostBack(&#39;grdPositionList$ctl02$lnkJD&#39;,&#39;&#39;)">View JD</a></td>
-                                                        
-            </tr>
+           
             
             <tr>
                 <td style="width:3%"></td>
@@ -205,13 +185,7 @@
                   <td><span id="grdPositionList_ctl02_Label3" class="Field_name">16-Dec-2020</span></td>
               </tr> 
   
-              <tr>
-                  <td style="width:3%"><img src="../../images/JD.png" style="height:13px;width:13px;" /></td>
-                  <td style="width:15%" class="text-head">Job Description</td>
-                  <td>:</td>
-                  <td><a id="grdPositionList_ctl02_lnkJD" title="Job Description" href="javascript:__doPostBack(&#39;grdPositionList$ctl02$lnkJD&#39;,&#39;&#39;)">View JD</a></td>
-                                                          
-              </tr>
+              
               
               <tr>
                   <td style="width:3%"></td>
@@ -224,11 +198,13 @@
   <td style="width:3%"></td>
   <td style="width:15%" ">Apply</td>
   <td>:</td>
-  <td><input type="submit" name="grdPositionList$ctl02$btnApply" value="Apply" id="grdPositionList_ctl02_btnApply" title="Apply for this position" class="btn"></td>
+  <td><input type="submit"  value="Apply"  title="Apply for this position" class="btn"></td>
                </table>
             </div>
           </details>
          </main>
+         <img src="../Images/undraw_working_late_pukg.svg" />
+         </div>
       </body>
   </body>
 </html>

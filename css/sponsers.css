@@ -1,6 +1,6 @@
 /*TODO: clean it all up, finish flex, add aesthetics, icons, redefine to be relative to vh-vw, maybe rework v2 variant using scss and frames and real transitions? */
 html body {
-    background-color: black;
+    background-color: #fff;
     margin: 0 0 0 0;
   }
   .infocardContainer * {
@@ -15,13 +15,13 @@ html body {
   }
   header {
     height: 2em;
-    background-color: #111122;
+    background-color: #fff;
     margin: 0 0 0 0;
     padding: auto;
     font-size: 2em;
     text-align: center;
     line-height: 2em;
-    color: white;
+    color: black;
   }
   a {
     text-decoration: none;
@@ -127,7 +127,7 @@ html body {
  
 
   .content3 h1{
-    color: #fff;
+    color: black;
     margin-left: 5%;
   }
 

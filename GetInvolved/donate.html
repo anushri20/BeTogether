@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         
 		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
-		
+		<link rel="stylesheet" href="../css/carousel.css">
 		
 		<link rel="stylesheet" href="../css/donate.css">
     </head>
@@ -17,10 +17,33 @@
         </style>
 
 	<body>
+        <div class="carousel-wrapper">
+            <span id="item-1"></span>
+            <span id="item-2"></span>
+            <span id="item-3"></span>
+            
+            <div class="carousel-item item-1">
+              <a class="arrow arrow-prev" href="#item-3"></a>
+              <a class="arrow arrow-next" href="#item-2"></a>
+            </div>
+            
+            <div class="carousel-item item-2">
+              <a class="arrow arrow-prev" href="#item-1"></a>
+              <a class="arrow arrow-next" href="#item-3"></a>
+            </div>
+            
+            <div class="carousel-item item-3">
+              <a class="arrow arrow-prev" href="#item-2"></a>
+              <a class="arrow arrow-next" href="#item-1"></a>
+            </div>
+    
+            
+            </div>
 
         <div class="container">
             
         <div class="donate">
+            
             <h1>Donate to make a difference</h1>
             <p>CARE has been working in India for 70 years, focusing on alleviating poverty and social exclusion. Your support will go a long way in helping us in our efforts. Donate now to support women and girls get access to quality education, maternal and child health care services, sustainable livelihood opportunities, and relief and rehabilitation during disasters and support for disaster preparedness.
                 Get 50 percent tax exemption on your donation to CARE India.
@@ -28,7 +51,7 @@
         </div>
 
 
-		<div class="wrapper" style="background-image: url('../Images/volunteer');">
+		<div class="wrapper" ">
 			<div class="inner">
 				<form action="">
 					<h1>Donate</h1>
