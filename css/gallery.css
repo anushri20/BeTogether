@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     padding: 0 4px;
     justify-content: center;
+    margin-bottom: 10%;
   }
   .pic {
     width: 100%;

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(90deg, rgba(32, 29, 29, 0.5), rgba(19, 18, 18, 0.755)), url('../Images/event2.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,12 +16,25 @@ body{
     align-items: center;
     align-content: center;
     justify-content: center;
-	font-family: 'Alegreya Sans' , sans-serif;
+    font-family: 'Alegreya Sans' , sans-serif;
+    
+}
+.news-form{
+    display: flex;
+}
+
+.news-form form{
+    margin-left: 20%;
+}
+
+.media-footer{
+    position: absolute;
+    bottom: -58%;
+    width: 100%;
 }
 
 .newsletter{
-    position: absolute;
-    bottom: -10%;
+    
     background-color: #0f4667;
     width: 100%;
     color: white;
@@ -29,6 +42,7 @@ body{
     
    
 }
+
 .newsletter h1{
     padding-bottom: 10px;
 }
@@ -162,6 +176,9 @@ body{
             
             
         }
+
+        
+     
         @media (max-width: 1100px){
             .laptop{
                 display: none;
@@ -171,8 +188,16 @@ body{
                 position: static;
                 margin-top: 2%;
             }
+            .media-footer{
+                bottom: -150%;
+            }
 
             
+        }
+        @media (max-width: 930px){
+            .media-footer{
+                bottom: -200%;
+            }
         }
         @media (max-width: 500px){
             .cube_4{
@@ -187,5 +212,14 @@ body{
         @media (max-width: 330px){
             .cube_4{
                 left: 20%;
+            }
+        }
+        @media (max-width: 850px){
+            .news-form{
+                display: block;
+            }
+            .news-form form{
+                
+                margin: 25px 0 25px 0;
             }
         }

@@ -12,6 +12,7 @@ body{
 
 .career{
   display: flex;
+  margin-bottom: 10%;
 }
 
 main {

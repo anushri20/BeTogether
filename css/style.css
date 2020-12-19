@@ -10,21 +10,25 @@
     background: white;
     font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
   }
-  .main{
+  /* .main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  } */
+
+  .mail{
+      display: flex;
   }
 
-.home{
+/* .home{
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./Images/covid.jpg');
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
     position: relative;
-}
+} */
 .navbar{
     display: flex;
     padding: 40px 120px;
@@ -171,8 +175,7 @@
     margin-bottom: 50px ;
     margin-top: 0px;
     margin-left: 10%;
-    position: absolute;
-    float: left;
+    
   }
 
   .icons{
@@ -228,7 +231,7 @@
       
   }
 
-  .contact{
+  .contact1{
     position: absolute;
     margin-left: 50%;
     float: left;
@@ -307,6 +310,23 @@
     float: right;
     display: inline;
     padding: 20px;
+}
+.user-info1{
+    position: absolute;
+    float: right;
+    display: inline;
+    
+}
+
+.user-info1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.user-info1 a:hover{
+    text-decoration: underline;
+    transition:  all .3s;
+    color:darkcyan;
 }
 
 .first{
@@ -428,4 +448,30 @@
     }
 }
 
+@media (max-width: 850px){
+    .mail{
+        display: block;
+    }
+    .form{
+        width: auto;
+        margin-right: 10%;
+    }
+    .contact1{
+        margin-left: 0;
+        float: none;
+        position: relative;
+    }
+
+    .intro .inner{
+        position: unset;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 50px;
+    }
+}
+@media (max-width: 550px){
+    .inner{
+        display: none;
+    }
+}
 

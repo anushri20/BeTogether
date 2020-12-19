@@ -174,12 +174,19 @@ input.hamburger-checkbox {
   opacity: 0.4;
   text-align: center;
 }
-.center{
+/* .center{
   z-index: 3;
   position: absolute;
   top: 130%;
   left: 20%;
   text-align: center;
+} */
+
+.center{
+  text-align: center;
+  top: 130%;
+  position: absolute;
+  left: 15%;
 }
 
 .center h1{
@@ -221,6 +228,61 @@ border: 1px solid #11999E;
 .btn-mission:hover{
   background: #11999E;
 }
+
+.content3{
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 10% 0;
+}
+
+.content3 h1{
+  color: #686868;
+  font-size: 60px;
+  font-weight: 700;
+line-height: 1;
+text-transform: uppercase;
+margin-top: 20px;
+text-align: center;
+
+text-transform: uppercase;
+}
+
+.content3 p{
+  padding: 0 10%;
+  font-size: 26px;
+margin-top: 20px;
+line-height: 1.2;
+text-transform: none;
+font-weight: 300;
+color: #686868;
+}
+
+.content4 img{
+  position: relative;
+  background: black;
+  height: 770px;
+  width: 100%;
+  
+  
+  opacity: 0.4;
+  text-align: center;
+}
+.center1{
+  position: absolute;
+  text-align: center;
+  top: 320%;
+  left: 38%;
+}
+.center1 h1{
+  color: #11999E;
+}
+
+.center1 p{
+  color: #fff;
+}
+
+
 
 @media only screen and (max-width: 700px) {
   .center{

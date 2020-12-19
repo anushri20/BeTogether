@@ -6,7 +6,7 @@
 }
 .cards {
   margin: 2% 5%;
-  
+  margin-bottom: 10%;
     width: 90%;
     display: flex;
     display: -webkit-flex;

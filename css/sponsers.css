@@ -12,6 +12,8 @@ html body {
   }
   .sponsers{
       display: flex;
+      margin-bottom: 10%;
+      
   }
   header {
     height: 2em;
@@ -216,4 +218,10 @@ html body {
     z-index: 3;
     opacity: 1;
   }
-}
+
+
+  @media (max-width: 800px){
+    .sponsers{
+      display: block;
+    }
+  }
