@@ -1,0 +1,122 @@
+/* default */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro{
+    padding: 240px;
+    background: url('../Images/about.jpg');
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+p.inner{
+    position: absolute;
+    top: 4.7em;
+    text-align: center;
+    color:black;
+    font-size: 90px;
+    background-color: rgba(230, 222, 222, 0.5);
+    padding: 5px 10px 5px 10px ;
+    margin-top: -20%;
+    margin-left: 15%;
+    max-width: fit-content;
+}
+
+.inner-2{
+    text-align: center;
+    font-size: 60px ;
+    padding: 1% 0 0 0;
+}
+
+.div-1{
+    width: 22.5%;
+    float: left;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color:#cf3030;
+    margin: 20px 24px 20px 200px;
+}
+
+.div-2{
+    width: 22.5%;
+    float: left;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #cf3030;
+    margin: 20px 20px 20px 24px;
+}
+
+.div-3{
+    width: 22.5%;
+    float: right;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #cf3030 ;
+    margin: 20px 200px 20px 20px;
+}
+
+.div-left{
+    width: 22.5%;
+    float: left;
+    padding: 50px;
+    margin: 20px 24px 20px 150px;
+}
+
+.div-right{
+    margin-left: 25%;
+    float: right;
+    padding: 50px;
+    margin-right: 150px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.button {
+    background: gray ;
+    background-image: -webkit-linear-gradient(top,white, white);
+    background-image: -moz-linear-gradient(top, white, white);
+    background-image: -ms-linear-gradient(top, white, white);
+    background-image: -o-linear-gradient(top, white ,white);
+    background-image: linear-gradient(to bottom, white, white );
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: Arial;
+    color:  #cf3030;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    }
+  
+  .button:hover {
+    background: #FFE8E6;
+    background-image: -webkit-linear-gradient(top,#FFE8E6,  #FFE8E6);
+    background-image: -moz-linear-gradient(top,#FFE8E6,#FFE8E6);
+    background-image: -ms-linear-gradient(top,#FFE8E6,#FFE8E6);
+    background-image: -o-linear-gradient(top, #FFE8E6, #FFE8E6);
+    background-image: linear-gradient(to bottom, #FFE8E6, #FFE8E6);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a{
+      text-decoration: none;
+      color: #cf3030;
+  }
+
+
+
