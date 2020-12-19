@@ -101,10 +101,10 @@ div.menu-pane {
 }
 
 
-.menu-pane li:first-child {
+/* .menu-pane li:first-child {
   font-size: 1.3em;
   margin-left: -10px;
-}
+} */
 
 
 .menu-links li a {

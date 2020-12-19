@@ -1,7 +1,5 @@
 /* default */
-*,
-*::after,
-*::before {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +13,9 @@ html, body {
 }
 
 /* body */
-
+.products{
+  padding-bottom: 10%;
+}
   .main{
       display: flex;
     flex-wrap: wrap;
@@ -146,13 +146,15 @@ html, body {
 }
 
 .left{
-  margin-left: 15%;
+  margin-bottom: 4%;
   margin-top: 0px;
 }
 
 .right{
-  margin-left: 55%;
+  float: right;
+  margin-left: 65%;
   margin-top: 0px;
+  margin-bottom: 4%;
 }
 
 .center {
@@ -190,6 +192,7 @@ html, body {
   font-size: x-large;
   padding: 50px 30px 0px 30px;
   text-align: center;
+  color: beige;
   
 
 }
@@ -342,6 +345,8 @@ html, body {
   font-size: 0.9em;
 }
 
+
+
 .intro{
     padding: 200px;
     background: url('../Images/pharmacy.jpg');
@@ -351,15 +356,13 @@ html, body {
 }
   
 p.inner{
-    position: absolute;
-    top: 4.7em;
+    position: relative;
     text-align: center;
     color:black;
     font-size: 90px;
     background-color: rgba(230, 222, 222, 0.9);
-    padding: 5px 10px 5px 10px ;
-    margin-top: -19%;
-    margin-left: 20%;
+    
+    
 }
 
 @media (max-width: 700px){
@@ -410,5 +413,14 @@ p.inner{
     }
 }
 
+
+@media (max-width: 780px){
+  p.inner{
+    position: absolute;
+    top: 20%;
+    font-size: 80px;
+    left: 20%;
+  }
+}
 
 

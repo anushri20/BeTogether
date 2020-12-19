@@ -20,19 +20,17 @@
 
   
 p.inner{
-    position: absolute;
-    top: 4.7em;
+    position: relative;
     text-align: center;
     color:black;
     font-size: 90px;
     background-color: rgba(230, 222, 222, 0.6);
-    padding: 5px 10px 5px 10px ;
-    margin-top: -19%;
-    margin-left: 17%;
+    
+
 }
 
 .inner-1{
-    margin-top: 250px ;
+    margin-top: 150px ;
     background-color: wheat;
     font-size: 40px;
     padding: 65px 190px 65px 190px;
@@ -48,9 +46,14 @@ p.inner{
     margin: 1%;
 }
 
+.stats{
+    display: flex;
+    margin-top: 10%;
+}
+
 .div-1{
     width: 33.33%;
-    float: left;
+    
     padding: 50px;
     font-size: 50px;
     text-align: center;
@@ -59,7 +62,7 @@ p.inner{
 
 .div-2{
     width: 33.33%;
-    float: left;
+    
     padding: 50px;
     font-size: 50px;
     text-align: center;
@@ -68,7 +71,7 @@ p.inner{
 
 .div-3{
     width: 33.33%;
-    float: right;
+    
     padding: 50px;
     font-size: 50px;
     text-align: center;
@@ -77,13 +80,39 @@ p.inner{
 
 .stats{
     background-color: white;
-    margin: 1%;
+    
 }
 
 .map{
     
     margin-top: 80px;
     padding-left: 14%;
+    margin-bottom: 10%;
 }
 
+@media (max-width:900px){
+    .stats{
+        display: block;
+    }
 
+    .div-1, .div-2, .div-3{
+        width: 100%;
+    }
+
+    .inner-1{
+        margin-top: 0;
+    }
+}
+
+@media (max-width:600px){
+    p.inner{
+        position: absolute;
+        top: 25%;
+        left: 15%;
+    }
+}
+@media (max-width:600px){
+    p.inner{
+        font-size: 70px;
+    }
+}

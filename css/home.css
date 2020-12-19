@@ -195,7 +195,7 @@ input.hamburger-checkbox {
   font-size: 4.5rem;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   
 }
 
@@ -276,10 +276,16 @@ color: #686868;
 }
 .center1 h1{
   color: #11999E;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .center1 p{
+  padding-top: 20px;
   color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 
 
@@ -299,5 +305,19 @@ color: #686868;
     height: 550px;
   }
   
+}
+
+
+@media only screen and (max-width: 1250px) {
+  .center{
+    left: 10%;
+    right: 10%;
+  }
+
+  .center1{
+    left: 10%;
+    right: 10%;
+    top: 300%;
+  }
 }
 

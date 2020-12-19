@@ -28,6 +28,17 @@ body
   
 }
 
+.machine{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px 25px 5%;
+}
+
+.masks , .ppe , .beds , .sanitizers, .soaps, .gloves, .face-shield, .test-kit , .thermometer, .tissue-box, .pulse-oxymeter, .hand-wash{
+  flex: 25%;
+  
+}
+
 
 /* End Non-Essential  */
 
@@ -35,7 +46,7 @@ body
     margin-top: 35%;
 }
 
-.masks{
+/* .masks{
     float:left ;
     margin-left: 110px;
 }
@@ -48,9 +59,9 @@ body
 .beds{
     float: right;
     margin-right: 110px;
-}
+} */
 
-.sanitizers{
+/* .sanitizers{
     float: left;;
     margin-left: 110px;
 }
@@ -93,26 +104,24 @@ body
 .tissue-box{
     float: right;
     margin-right: 110px;
-}
+} */
 
 .intro{
     padding: 200px;
     background: url('../Images/MACHINERY-2.jpg');
-    margin: 0px;
+    margin-bottom: 5%;
     background-repeat: no-repeat;
     background-size: cover;
 }
   
 p.inner{
-    position: absolute;
-    top: 4.7em;
+    position: relative;
     text-align: center;
     color:black;
     font-size: 90px;
     background-color: rgba(230, 222, 222, 0.8);
     padding: 5px 10px 5px 10px ;
-    margin-top: -19%;
-    margin-left: 20%;
+  
 }
 
 .input{
@@ -165,7 +174,7 @@ p.inner{
   }
   
   .el-wrapper {
-    width: 360px;
+    width: 300px;
     padding: 15px;
     margin: 15px auto;
     background-color: #fff;
@@ -402,3 +411,34 @@ p.inner{
     white-space: nowrap;
   }
   
+
+  @media screen and (max-width: 1400px) {
+    .masks , .ppe , .beds , .sanitizers, .soaps, .gloves, .face-shield, .test-kit , .thermometer, .tissue-box, .pulse-oxymeter, .hand-wash{
+      flex: 40%;
+      margin-left: 10%;
+      
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .masks , .ppe , .beds , .sanitizers, .soaps, .gloves, .face-shield, .test-kit , .thermometer, .tissue-box, .pulse-oxymeter, .hand-wash{
+      flex:100%;
+      margin-left: 20%;
+    }
+  }
+  @media (max-width: 850px){
+    p.inner{
+      position: absolute;
+      top: 20%;
+      font-size: 70px;
+    }
+  }
+
+  @media (max-width: 850px){
+    p.inner{
+      position: absolute;
+      top: 25%;
+      font-size: 50px;
+      left: 25%;
+    }
+  }
