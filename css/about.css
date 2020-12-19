@@ -7,6 +7,9 @@
   box-sizing: border-box;
 }
 
+.about{
+    display: flex;
+}
 .intro{
     padding: 240px;
     background: url('../Images/about.jpg');
@@ -75,8 +78,8 @@ p.inner{
 }
 
 .div-right{
-    margin-left: 25%;
-    float: right;
+    
+    
     padding: 50px;
     margin-right: 150px;
     text-align: justify;
