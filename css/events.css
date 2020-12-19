@@ -15,10 +15,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body{
-  background-color:  #fff
-;
+  background-color:  #fff;
+ 
 }
 
 .main{
@@ -30,6 +31,9 @@ body{
 
 .event{
   display: flex;
+  justify-content: center;
+ 
+  
 }
 
 .event1{
@@ -38,7 +42,7 @@ body{
 }
 
 .event1 section{
-  width: 600px;
+  width: 650px;
 }
 .heading{
   position: relative;
@@ -113,7 +117,8 @@ section img{
 }
 section{
   width: var(--width);
-  background:   #f3f3f6
+  background:   #fafafa;
+  margin-right: 10px
 
   ;
   padding: 20px;
