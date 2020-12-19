@@ -1,128 +1,89 @@
-element.style {
+
+
+/* default */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.cid-siYzyw0gFP {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: #ffffff;
-}
-section {
-    background-position: 50% 50%;
+
+
+.intro{
+    padding: 200px;
+    background: url('../Images/reach.jpg');
+    margin: 0px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-section, .container, .container-fluid {
-    position: relative;
-    word-wrap: break-word;
+
+  
+p.inner{
+    position: absolute;
+    top: 4.7em;
+    text-align: center;
+    color:black;
+    font-size: 90px;
+    background-color: rgba(230, 222, 222, 0.6);
+    padding: 5px 10px 5px 10px ;
+    margin-top: -19%;
+    margin-left: 17%;
 }
-section {
-    background-color: #ffffff;
+
+.inner-1{
+    margin-top: 250px ;
+    background-color: wheat;
+    font-size: 40px;
+    padding: 65px 190px 65px 190px;
+    text-align: center;
+    font-weight: 550;
+   }
+   
+
+.inner-2{
+    text-align: center;
+    font-size: 40px ;
+    padding: 1% 0 1% 0;
+    margin: 1%;
 }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
+
+.div-1{
+    width: 33.33%;
+    float: left;
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #cf3030;
 }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
+
+.div-2{
+    width: 33.33%;
+    float: left;
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #cf3030;
 }
-*, ::after, ::before {
-    box-sizing: border-box;
+
+.div-3{
+    width: 33.33%;
+    float: right;
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #cf3030;
 }
-*, ::after, ::before {
-    box-sizing: inherit;
+
+.stats{
+    background-color: white;
+    margin: 1%;
 }
-*, ::after, ::before {
-    box-sizing: border-box;
+
+.map{
+    
+    margin-top: 80px;
+    padding-left: 14%;
 }
-user agent stylesheet
-section {
-    display: block;
-}
-body {
-    font-family: Jost;
-}
-body {
-    font-style: normal;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #232323;
-    position: relative;
-}
-body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
-}
-body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
-}
-:root {
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-}
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: inherit;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: inherit;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
+
+
