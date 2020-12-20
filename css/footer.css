@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif, Arial, Helvetica;
+}
+
 .footer{
     background: #303036;
     color: #d3d3d3;
@@ -86,7 +90,7 @@
 .footer .footer-content .about .socials a:focus,
 .footer .footer-content .about .socials a:hover {
     color:#fff;
-  background-color:#29aafe
+  /* background-color:#29aafe */
 }
 
 .footer .footer-content .about .socials a.facebook:hover{

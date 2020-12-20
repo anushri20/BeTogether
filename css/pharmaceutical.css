@@ -23,7 +23,7 @@
 body
 {
   
-  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   -webkit-font-smoothing: antialiased;
   
 }
@@ -297,13 +297,13 @@ p.inner{
   }
   
   .info-inner .p-name {
-    font-family: 'PT Sans', sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     font-size: 18px;
     color: #252525;
   }
   
   .info-inner .p-company {
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     font-size: 12px;
     text-transform: uppercase;
     color: #8c8c8c;
@@ -323,7 +323,7 @@ p.inner{
     position: absolute;
     width: 100%;
     bottom: -20px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     color: #828282;
     opacity: 0;
   }
@@ -339,7 +339,7 @@ p.inner{
     height: 100%;
     top: 0;
     left: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     font-weight: 700;
   }
   
