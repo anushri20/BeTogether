@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: sans-serif, Arial, Helvetica;
+}
 .cards {
   margin: 2% 5%;
   margin-bottom: 10%;
@@ -109,7 +113,7 @@ border-bottom-right-radius: 12px;
 }
 
 .card__category {
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
@@ -125,7 +129,7 @@ border-bottom-right-radius: 12px;
 
 .card__by {
     font-size: 12px;
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     font-weight: 500;
 }
 
@@ -158,7 +162,7 @@ text-align: center;
 
 .heading h1{
   font-size: 50px;
-font-family: "futura-pt",sans-serif;
+font-family: sans-serif, Arial, Helvetica;
 font-style: normal;
 font-weight: 500;
 line-height: 1;
@@ -171,7 +175,7 @@ margin-top: 2%;
   font-size: 26px;
 margin-top: 2%;
 display: block;
-font-family: "futura-pt",sans-serif;
+font-family: sans-serif, Arial, Helvetica;
 font-style: normal;
 font-weight: 300;
 
