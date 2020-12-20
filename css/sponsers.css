@@ -194,16 +194,15 @@ html body {
 
 .item-1 {
     z-index: 2;
-    opacity: 0.5;
-  background:url('https://images.unsplash.com/photo-1592392513912-fd639ff32e98?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxjb3ZpZCUyMDE5fGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
-  background-size:cover;
+    opacity: 1;
+  background:url('https://s3.amazonaws.com/external_clips/attachments/2463598/original/AdobeStock_192062087.jpg?1553705038')
   }
 .item-2{
-  background:url('https://images.unsplash.com/photo-1598723106415-862ab917eb7c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU1fHxjb3ZpZCUyMDE5fGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+  background:url('https://www.meetingsnet.com/sites/meetingsnet.com/files/styles/article_featured_retina/public/Pod4_0.jpg?itok=6UZ1qupp');
    background-size:cover;
 }
 .item-3{
-  background:url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
+  background:url('https://blog.printsome.com/wp-content/uploads/event-sponsorship.jpg');
    background-size:cover;
 }
 
