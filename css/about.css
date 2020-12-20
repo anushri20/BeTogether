@@ -170,3 +170,12 @@ p.inner{
         display: none;
     }
 }
+
+@media (max-width: 500px){
+    .aboutBe{
+        display: block;
+    }
+    .div-left{
+        margin-left: 30%;
+    }
+}

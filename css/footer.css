@@ -130,7 +130,7 @@ body{
     background: #006669;
     color: white;
     border: 1px solid transparent;
-    border-radius: 0.75rem;
+    /* border-radius: 0.75rem; */
 }
 
 .btn:hover{
