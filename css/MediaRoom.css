@@ -19,6 +19,15 @@ body{
     font-family: 'Alegreya Sans' , sans-serif;
     
 }
+.home{
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(96, 87, 87, 0.8), rgba(69, 66, 66, 0.8)), url('../Images/covid.jpg'); */
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    /* background-color: black; */
+}
 .news-form{
     display: flex;
 }
@@ -226,5 +235,11 @@ body{
             .news-form form{
                 
                 margin: 25px 0 25px 0;
+            }
+        }
+
+        @media (max-width: 1057px){
+            .home{
+                height: 10vh;
             }
         }
