@@ -31,8 +31,12 @@ body{
     display: block;
     font-size: 1.1em;
     margin-bottom: 8px ;
+    margin-top: 10px;
 }
 
+.text-input{
+    border-radius: 10%;
+}
 /* .footer .footer-content .about .socials a{
     color: white;
     border: 1px solid gray;
@@ -126,7 +130,7 @@ body{
     background: #006669;
     color: white;
     border: 1px solid transparent;
-    border-radius: .25rem;
+    border-radius: 0.75rem;
 }
 
 .btn:hover{
