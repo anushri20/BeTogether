@@ -66,7 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   color: #333;
   -webkit-font-smoothing: antialiased;
-  font-family: "Droid Serif", serif;
+  font-family: sans-serif, Arial, Helvetica;
 }
 
 img {
@@ -95,7 +95,7 @@ img {
 }
 
 .projTitle {
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   font-weight: bold;
   text-align: center;
   font-size: 2em;
@@ -105,7 +105,7 @@ img {
   text-transform: uppercase;
 }
 .projTitle span {
-  font-family: "Droid Serif", serif;
+  font-family: sans-serif, Arial, Helvetica;
   font-weight: normal;
   font-style: italic;
   text-transform: lowercase;
@@ -117,13 +117,13 @@ img {
   border-bottom: 1px solid #D0D0D0;
 }
 .heading h1 {
-  font-family: "Droid Serif", serif;
+  font-family: sans-serif, Arial, Helvetica;
   font-size: 2em;
   float: left;
 }
 .heading a.continue:link, .heading a.continue:visited {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   letter-spacing: -.015em;
   font-size: .75em;
   padding: 1em;
@@ -160,7 +160,7 @@ img {
 .tableHead {
   display: table;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   font-size: .75em;
 }
 .tableHead li {
@@ -200,7 +200,7 @@ img {
 }
 .cart .items .cartSection h3 {
   font-size: 1em;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .025em;
@@ -209,7 +209,7 @@ img {
   display: inline-block;
   font-size: .85em;
   color: #777777;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
 }
 .cart .items .cartSection p .quantity {
   font-weight: bold;
@@ -250,7 +250,7 @@ img {
 
 .special {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
 }
 .special .specialContent {
   padding: 1em 1em 0;
@@ -268,7 +268,7 @@ img {
 
 a.remove {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   color: #cf3030;
   font-weight: bold;
   background: #e0e0e0;
@@ -328,7 +328,7 @@ a.remove:hover {
 
 .btn:link, .btn:visited {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   letter-spacing: -.015em;
   font-size: 1em;
   padding: 1em 3em;
@@ -386,7 +386,7 @@ a.remove:hover {
   text-align: right;
 }
 .subtotal .totalRow .label {
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   font-size: .85em;
   text-transform: uppercase;
   color: #777;
@@ -426,7 +426,7 @@ a.remove:hover {
   .cart .items .cartSection.qtyWrap:before {
     content: "QTY";
     display: block;
-    font-family: "Montserrat", sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     padding: .25em;
     font-size: .75em;
   }
