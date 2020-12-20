@@ -7,14 +7,14 @@
     
   strong {
     font-weight: 900;
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     color: #e5e5e5;
   }
   
   a {
     -webkit-transition: color 0.25s ease-in-out;
     transition: color 0.25s ease-in-out;
-    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     text-transform: uppercase;
     text-decoration: none;
     color: #dff3fd;
