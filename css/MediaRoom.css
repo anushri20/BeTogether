@@ -32,13 +32,11 @@ body{
     display: flex;
 }
 
-.news-form form{
-    margin-left: 20%;
-}
+
 
 .news-form p{
 
-    margin-right: 20%;
+    margin-right: 5%;
 }
 
 .media-footer{
