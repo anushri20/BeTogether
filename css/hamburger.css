@@ -183,3 +183,9 @@ input.hamburger-checkbox {
     margin-top: 30%;
   }
 }
+
+/* @media (max-width: 1200px){
+  .home{
+    height: 10vh;
+  }
+} */
