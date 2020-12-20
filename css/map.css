@@ -26,6 +26,9 @@
     color: #e5e5e5;
   }
   
+  .centered-y h2{
+    margin-left: 110px;
+  }
   .centered {
     position: absolute;
     top: 50%;

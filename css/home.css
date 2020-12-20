@@ -4,6 +4,10 @@
   font-family: Libre Caslon Text;
   background-color: #FFAB91;
 } */
+
+body{
+  font-family: sans-serif, Arial, Helvetica;
+}
 .home{
     height: 100vh;
     background: black;

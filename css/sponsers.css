@@ -2,13 +2,14 @@
 html body {
     background-color: #fff;
     margin: 0 0 0 0;
+    font-family: sans-serif, Arial, Helvetica;
   }
   .infocardContainer * {
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family:  sans-serif, Arial, Helvetica;
     font-weight: 300;
   }
   h2 {
-    font-weight: 600; font-style: italic; font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 600; font-style: italic; font-family: sans-serif, Arial, Helvetica;
   }
   .sponsers{
       display: flex;
