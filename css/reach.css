@@ -30,7 +30,7 @@ p.inner{
 }
 
 .inner-1{
-    margin-top: 150px ;
+    margin-top: 1% ;
     background-color: wheat;
     font-size: 40px;
     padding: 65px 190px 65px 190px;
@@ -48,12 +48,12 @@ p.inner{
 
 .stats{
     display: flex;
-    margin-top: 10%;
+    margin-top: 1%;
+    background-color: white;
 }
 
 .div-1{
     width: 33.33%;
-    
     padding: 50px;
     font-size: 50px;
     text-align: center;
@@ -62,7 +62,6 @@ p.inner{
 
 .div-2{
     width: 33.33%;
-    
     padding: 50px;
     font-size: 50px;
     text-align: center;
@@ -71,20 +70,14 @@ p.inner{
 
 .div-3{
     width: 33.33%;
-    
     padding: 50px;
     font-size: 50px;
     text-align: center;
     color: #cf3030;
 }
 
-.stats{
-    background-color: white;
-    
-}
 
 .map{
-    
     margin-top: 80px;
     padding-left: 14%;
     margin-bottom: 10%;
