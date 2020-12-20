@@ -437,8 +437,12 @@ p.inner{
   @media (max-width: 850px){
     p.inner{
       position: absolute;
-      top: 25%;
+      top: 35%;
       font-size: 50px;
       left: 25%;
+      
+    }
+    .masks , .ppe , .beds , .sanitizers, .soaps, .gloves, .face-shield, .test-kit , .thermometer, .tissue-box, .pulse-oxymeter, .hand-wash{
+      margin-left: 25%;
     }
   }

@@ -32,6 +32,7 @@ html, body {
 }
 
 .left{
+  margin-left: 5%;
   margin-bottom: 4%;
   margin-top: 0px;
 }
@@ -41,6 +42,7 @@ html, body {
   margin-left: 65%;
   margin-top: 0px;
   margin-bottom: 4%;
+  margin-right: 5%;
 }
 
 .center {
@@ -296,6 +298,10 @@ p.inner{
         float: none;
         margin-left: 25px;
         margin-top: 10px;
+    }
+
+    p.inner{
+      display: none;
     }
 }
 

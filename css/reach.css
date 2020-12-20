@@ -107,5 +107,6 @@ p.inner{
 @media (max-width:600px){
     p.inner{
         font-size: 70px;
+        display: none;
     }
 }
