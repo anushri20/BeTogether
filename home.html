@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./css/bgVideo.css">
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/footer.css"/>
+    <link rel="stylesheet" href="./css/map.css"/>
+    <link rel="stylesheet" href="./css/hamburger.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js">
 </head>
@@ -25,39 +27,70 @@
           </label>    
         </div>
       
-          <div class="menu-pane">
+        <div class="menu-pane">
             
-            <nav>
-              <ul class="menu-links">
-                <!-- <li><a href="###">Québec, QC</a><span id="QC-info">
-                 
-                </span>
-                  
-                </li> -->
-                
-                <li><a href="./home.html">Home</a>
-                 
+          <nav>
+            <ul class="menu-links">
+                             
+              <li><a href="./home.html">Home</a>
+               
+              </li>
+              <li><a href="../about.html">About us</a></li>
+              <li><a href="../partners.html">Our Partners</a></li>
+              <li><a href="../reach.html">Our Reach</a></li>
+              <li><a href="../contact.html">Contact us</a></li>
+            </ul>
+             <ul class="menu-links">
+                         <li><a href="###">Get Involved</a>
+                     </li>
+    
+              <li><a href="../GetInvolved/donate.html">Donate</a></li>
+              <li><a href="../GetInvolved/career.html">
+                Career           
+                </a></li>
+              <li><a href="../GetInvolved/volunteer.html">Volunteer</a></li>
+              
+              <li><a href="../GetInvolved/sponsers.html">Sponsers</a></li>
+            </ul><br/>
+            <ul class="menu-links">
+              <li><a href="#">Media Room </a>
                 </li>
-                <li><a href="./MediaRoom.html">Media Room</a></li>
-                <li><a href="./GetInvolved/getInvolved.html">Get Involved</a></li>
-              </ul>
-               <ul class="menu-links">
-                           <li><a href="###">Washington, DC</a>
-                             <span id="DC-info">
-                  <p>+1 202-472-3850</p>
-                </span></li>
-      
-                <li><a href="###">breakfast</a></li>
-                <li><a href="###">
-                  bakery            
-                  </a></li>
-                <li><a href="###">bar</a></li>
-              </ul>
-              
-              
-            </nav>
-          </div>
+          
+          <li><a href="./gallery.html">Photos</a></li>
+          <li><a href="./videoGallery.html">
+          Videoes            
+          </a></li>
+          <li><a href="./NewsRoom.html">News</a></li>
+          <li><a href="./events.html">Events</a></li>
+          <li><a></a></li>
+          </ul>
+
+            <ul class="menu-links">
+              <li><a href="../products/products.html">Products</a>
+          </li>
+
+   <li><a href="../products/essentials.html">Essentials</a></li>
+   <li><a href="../products/machinery.html">
+     Machinery           
+     </a></li>
+   <li><a href="../products/pharmaceutical.html">Pharmaeceutical</a></li>
+   
+   <li><a href="../products/innovative.html">Innovative</a></li>
+   
+   <li><a href="../products/furniture.html">Furniture</a></li>
+ </ul>
+
+            
+          </nav>
+        </div>
           <div class="banner-title">
+            <div class="donate-button">
+              <a href="./GetInvolved/donate.html">
+              <button><i class="fa fa-heart-o" aria-hidden="true"></i>
+
+                Donate</a>
+              </button>
+            </div>
             <div class="videobg">
               <video autoplay muted loop>
                   <source src="./video/post_video.mp4" type="video/mp4">
@@ -113,15 +146,117 @@
 
 <div class="content5">
   
-</div>
 
+
+<div class="content5"> 
+  <h1 class="center2">We equip health care across the world</h1>
+  
+  <div class="map">
+      
+
+    <div class="distribution-map">
+      <!-- This was broken for a while because image hosts are annoying, so now it's a data uri. Sorry :( -->
+      
+      <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
+      
+    <img src="./Images/map.png" alt="" style="width: 95% ; height: 50% ;">
+    <button class="map-point" style="top:44%;left:61.5%">
+          <div class="content">
+              <div class="centered-y">
+                  <h2>INDIA</h2>                  
+              </div>
+          </div>
+    </button>
+    <button class="map-point" style="top:15%;left:10%">
+          <div class="content">
+              <div class="centered-y">
+                  <h2>UNITED STATES OF AMERICA</h2>
+              </div>
+          </div>
+    </button>
+      <button class="map-point" style="top:27%;left:14%">
+          <div class="content">
+              <div class="centered-y">
+                  <h2>CANADA</h2>                    
+              </div>
+          </div>
+      </button>
+      <button class="map-point" style="top:39%;left:11.5%">
+          <div class="content">
+              <div class="centered-y">
+                  <h2>MEXICO</h2>
+                  
+              </div>
+          </div>
+      </button>
+      <button class="map-point" style="top:63%;left:27%">
+          <div class="content">
+              <div class="centered-y">
+                  <h2>BRAZIL</h2>
+                  
+              </div>
+          </div>
+      </button>
+      <button class="map-point" style="top:31%;left:49%">
+          <div class="content">
+              <div class="centered-y">
+                  <h2>TURKEY</h2>
+                  
+              </div>
+          </div>
+      </button>
+      <button class="map-point" style="top:20%;left:40%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>UNITED KINGDOM</h2>
+                
+            </div>
+        </div>
+      </button>
+      <button class="map-point" style="top:29%;left:40%">
+      <div class="content">
+          <div class="centered-y">
+              <h2>FRANCE</h2>
+              
+          </div>
+      </div>
+      </button>
+      <button class="map-point" style="top:74%;left:23%">
+        <div class="content">
+        <div class="centered-y">
+            <h2>ARGENTINA</h2>
+            
+        </div>
+        </div>
+      </button>
+      <button class="map-point" style="top:76%;left:46%">
+        <div class="content">
+        <div class="centered-y">
+          <h2>SOUTH AFRICA</h2>
+          
+        </div>
+        </div>
+      </button>
+      <button class="map-point" style="top:75%;left:75%">
+        <div class="content">
+        <div class="centered-y">
+          <h2>AUSTRALIA</h2>
+          
+        </div>
+        </div>
+      </button>
+      
+  </div>
+  
+  </div>
+</div>
   
   <div class="footer">
     <div class="footer-content">
         <div class="footer-section about">
             <h1 class="logo-text"> <span>BeTogether</span></h1>
             <p>
-                BeTogether works on bla bla bla bla
+              Helath care is a right not a privilege.
             </p>
             <div class="contact">
                 <span><i class="fa fa-phone"></i> &nbsp; 123-456-678</span>
@@ -144,8 +279,9 @@
                 <a href="./events/MediaRoom.html"><li>Media Room</li></a>
                 <a href="./products/products.html"><li>Products</li></a>
                 <a href="./partners.html"><li>Partners</li></a>
-                <a href="./contact.html"><li>Contact us</li></a>
                 <a href="./reach.html"><li>Our Reach</li></a>
+                <a href="./contact.html"><li>Contact us</li></a>
+               
             </ul>
         </div>
         <div class="footer-section contact-form">
@@ -153,7 +289,7 @@
             <br>
             <form >
                 <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
-                <textarea name="message" class="text-input contact-input" placeholder="Ypur message"></textarea>
+                <textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
                 <button type="submit" class="btn btn-big contact-btn">
                     <i class="fa fa-envelope"></i>
                     Send</button>
@@ -162,7 +298,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        &copy; BeTogether.com | Designed by Team Name
+        &copy; BeTogether.com | Designed by Team Name SD-201761
     </div>
 </div>
 </body>

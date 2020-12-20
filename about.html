@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/about.css">
     <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
-    <link rel="stylesheet" href="./css/hamburger.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -13,49 +13,74 @@
     <title>About Us</title>
 </head>
 <body>
-
-    <input type="checkbox" id="openmenu" class="hamburger-checkbox">
-        
-  <div class="hamburger-icon">
-    <label for="openmenu" id="hamburger-label">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>    
-  </div>
-
-    <div class="menu-pane">
-      
-      <nav>
-        <ul class="menu-links">
-          <li><a href="###">Québec, QC</a><span id="QC-info">
-            <p>+1 418-640-3300</p>
-          </span>
-            
-          </li>
+  <div class="menu-container home">
+    
+    <div class="navbar">
+      <a href="../home.html" class="logo"> <img src="./favicon/favicon-32x32.png" /> </a>
+      <a href="../home.html">Home</a>
+      <a href="../about.html">About us</a>
+  
+      <div class="dropdown">
           
-          <li><a href="./home.html">Home</a>
-           
-          </li>
-          <li><a href="./MediaRoom.html">Media Room</a></li>
-          <li><a href="./GetInvolved/getInvolved.html">Get Involved</a></li>
-        </ul>
-         <ul class="menu-links">
-                     <li><a href="###">Washington, DC</a>`  
-                       <span id="DC-info">
-            <p>+1 202-472-3850</p>
-          </span></li>
-
-          <li><a href="###">breakfast</a></li>
-          <li><a href="###">
-            bakery            
-            </a></li>
-          <li><a href="###">bar</a></li>
-        </ul>
-                
-      </nav>
-    </div>
+          <button class="dropbtn"> <a class="droplink" href="../products/products.html"> Products </a>
+            <i class="fa fa-caret-down"></i>
+          </button> 
+  
+          <div class="dropdown-content">
+            <a href="../products/essentials.html"> Essentials</a>
+            <a href="../products/machinery.html">Machinery</a>
+            <a href="../products/furniture.html">Furniture</a>
+            <a href="../products/innovative.html">Innovative</a>
+            <a href="../products/pharmaceutical.html">Pharmaeceutical</a>
+          </div>
+        </div> 
+      
+      <div class="dropdown">
+          
+        <button class="dropbtn"> <a class="droplink" href="../events/MediaRoom.html"> Media Room </a>
+          <i class="fa fa-caret-down"></i>
+        </button> 
+  
+        <div class="dropdown-content">
+          <a href="../events/gallery.html"> Photo Gallery</a>
+          <a href="../events/videoGallery.html">Video Gallery</a>
+          <a href="../events/NewsRoom.html">News</a>
+          <a href="../events/events.html">Events</a>
+        </div>
+      </div> 
+  
+      <a href="../reach.html">Our Reach</a>
+      
+      <a href="../partners.html">Partners</a>
+  
+      <div class="dropdown">
+          
+          <button class="dropbtn"> <a class="droplink" href="../GetInvolved/getInvolved.html"> Get Involved </a>
+            <i class="fa fa-caret-down"></i>
+          </button> 
+  
+          <div class="dropdown-content">
+            <a href="../GetInvolved/donate.html"> Donate</a>
+            <a href="../GetInvolved/career.html">Career</a>
+            <a href="../GetInvolved/volunteer.html">Volunteer</a>
+            <a href="../GetInvolved/sponsers.html">Sponsers</a>
+            
+          </div>
+        </div> 
+  
+        <a href="../contact.html">Contact us</a>
+  
+        <div class="add">
+        <a href="#">
+        <button 
+        type="button"
+        class=" btn-default">
+         Add to Cart
+     </button>
+     <i class="fa fa-shopping-cart icon-card"></i>
+        </a>
+        </div>
+  </div>
 
     <div class="intro" >
             <p class="inner">The STORY OF <br>BeTogether </p>       

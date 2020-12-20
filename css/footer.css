@@ -17,8 +17,10 @@
 
 }
 
+
 .footer .footer-content h1, .footer .footer-content h2 {
     color: white;
+    margin-bottom: 20px;
 }
 
 .footer .footer-content .about .contact span{
