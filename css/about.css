@@ -7,8 +7,9 @@
   box-sizing: border-box;
 }
 
-.about{
+.aboutBe{
     display: flex;
+    background-color: wheat;
 }
 .intro{
     padding: 240px;
@@ -34,7 +35,21 @@ p.inner{
 .inner-2{
     text-align: center;
     font-size: 60px ;
-    padding: 1% 0 0 0;
+    padding: 1% ;
+    margin: 2%;
+}
+
+.inner-3{
+    text-align: center;
+    font-size:60px ;
+    margin-top: 40px;
+    padding: 50px ;
+}
+
+.inner-4{
+    text-align: center;
+    font-size: 60px;
+    margin: 2%;
 }
 
 .div-1{
@@ -78,8 +93,6 @@ p.inner{
 }
 
 .div-right{
-    
-    
     padding: 50px;
     margin-right: 150px;
     text-align: justify;
