@@ -31,7 +31,7 @@ body
 .machine{
   display: flex;
   flex-wrap: wrap;
-  /* margin: 0 10px 25px 5%; */
+  margin: 0 10px 25px 5%;
 }
 
 .masks , .ppe , .beds , .sanitizers, .soaps, .gloves, .face-shield, .test-kit , .thermometer, .tissue-box, .pulse-oxymeter, .hand-wash{
