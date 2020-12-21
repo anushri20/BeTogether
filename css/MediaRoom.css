@@ -209,7 +209,7 @@ body{
         }
         @media (max-width: 930px){
             .media-footer{
-                bottom: -200%;
+                bottom: -250%;
             }
         }
         @media (max-width: 500px){
@@ -237,8 +237,4 @@ body{
             }
         }
 
-        @media (max-width: 1057px){
-            .home{
-                height: 5vh;
-            }
-        }
+     
