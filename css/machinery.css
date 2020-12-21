@@ -446,3 +446,13 @@ p.inner{
       margin-left: 25%;
     }
   }
+
+  @media (max-width: 400px){
+    p.inner{
+      display: none;
+    }
+
+    .masks , .ppe , .beds , .sanitizers, .soaps, .gloves, .face-shield, .test-kit , .thermometer, .tissue-box, .pulse-oxymeter, .hand-wash{
+      margin-left: 15%;
+    }
+  }
