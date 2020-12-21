@@ -18,6 +18,10 @@ body{
     /* background-color: black; */
 }
 
+/* .menu-pane nav ul{
+  display: none;
+} */
+
 .body-text {
   padding-top: 20vh;
   text-align: center;
